@@ -1,0 +1,447 @@
+
+ @import url(reset.css);
+
+a {
+	font-size: 12pt;
+	font-family: Cicle_Fina;
+	font-weight: 400;
+	text-decoration: none;
+	color: #000;
+}
+body {
+	margin: 0;
+
+}
+i {
+	padding-left: 4px;
+	margin-left: 3%;
+	border-left: 0.5px solid #fff;
+}
+i:hover {
+	cursor: pointer;
+}
+a:hover {
+	color: #faa61a;
+}
+#back-wrap {
+	background-image: url(../images/background.jpg);
+}
+#wrapper {
+	margin: 0px 10% 10px 10%;
+	max-width: auto;
+	height: auto;
+}
+#subs-wr {
+	height: 30px;
+	width: 100%;
+}
+#subscribe {
+	width: 30%;
+	height: 20px;
+	float: right;
+	padding: 5px 0;
+	background-color: #faa61a;
+}
+#subs-text {
+	height: 18px;
+    background-color: #fff;
+    border: none;
+    margin-left: 7%;
+    margin-right: 2%;
+    display: inline-block;
+}
+#subs-caption {
+	display: inline-block;
+	font-size: 10pt;
+}
+#subs-caption:hover {
+	color: #000;
+}
+
+#header-wr {
+	width: auto;
+	height: 60px;
+	margin-bottom: 50px;
+	margin-top: 15px;
+}
+#logo-wr {
+	width: 30%;
+	display: inline-block;
+	text-align: left;
+}
+#leaf {
+	width: auto;
+	display: inline-block;
+}
+#logo-label{
+	display: inline-block;
+    vertical-align: top;
+    padding-top: 12px;
+    padding-left: 3%;
+}
+#Lispum {
+	display: inline-block;
+	font-family: Source;
+	font-size: 27pt;
+	font-weight: 200;
+	width: auto;
+}
+#Media-logo {
+	display: inline-block;
+    font-family: SourceLt;
+    font-size: 31pt;
+    padding-left: 2%;
+}
+
+#menu-bar {
+	display: inline-block;
+	text-align: right;
+	vertical-align: top;
+	padding-top: 30px;
+	width: 69%;
+}
+#menu-list {
+	float: right;
+	padding: auto;
+	margin-bottom: 0;
+}
+#menu-bar ul li {
+	display: inline-block;
+	text-align: right;
+	padding: 0 5px;
+	font-style: 
+}
+.menu-link {
+	padding-left: 18px;
+}
+
+#content-wrap {
+	width: 100%;
+	height: auto;
+}
+#media-presentation {
+	width: 100%;
+	height: 550px;
+	padding-top: 15px;
+	background-color: #faa61a;
+}
+#media-caption {
+	font-family: Helvetical;
+	font-size: 100pt;
+	text-align: center;
+}
+#media-content {
+	height: 370px;
+	width: 94%;
+	padding: 15px 3%;
+}
+#media-left {
+	height: 370px;
+	width: 65%;
+	display: inline-block;
+	background-color: #000;
+	position: relative;
+}
+#mdlt-panda {
+	width: 66%;
+	height: 369px;
+	display: inline-block;
+	position: relative;
+}
+iframe {
+	width: 100%;
+	height: 100%;
+}
+#featuard {
+	position: absolute;
+	display: block;
+	font-family: Cicle_FInaIt;
+	font-size: 18pt;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.8;
+	padding: 5px 14px;
+	z-index: 10;
+    top: 374px;
+    left: 145px;
+}
+#mdlt-text {
+	width: 33%;
+	height: 370px;
+	display: inline-block;
+	float: right;
+}
+#mdlt-text-wr {
+	width: 100%
+	height: auto;
+	padding: 25px 5% 25px 10%;
+}
+.mdlt-h3 {
+	display: inline-block;
+	padding: 3px;
+	background-color: #fff;
+	font-family: Bebas;
+	font-size: 14pt;
+}
+.mdlt-p {
+	color: #fff;
+	font-family: ColaborateTh;
+	font-size: 16pt;
+	padding-left: 3%;
+	padding-top: 5px; 
+	margin-bottom: 20px;
+}
+.mdlt-p1 {
+	color: #fff;
+	font-family: ColaborateTh;
+	font-size: 11pt;
+	padding-left: 3%;
+	padding-top: 5px;
+	line-height: 130%;
+	margin-bottom: 20px;
+}
+#media-right {
+	height: 370px;
+	width: 31%;
+	display: inline-block;
+	float: right;
+	background-color: #fff;
+}
+#mdrt-caption {
+	font-family: Bebas;
+	font-size: 18pt;
+	padding: 5px 0 5px 10px;
+}
+#mdrt-image-wr {
+	height: auto;
+}
+#mdrt-image-wr img {
+	height: auto;
+	width: 100%;
+}
+#mdrt-text-wr {
+	padding: 10px 10px 0 10px;
+    font-family: Colaborate;
+    font-size: 13pt;
+    line-height: 130%;
+}
+#mdrt-link {
+	height: 25px;
+	width: 36%;
+	float: right;
+	background-color: #000;
+	margin-right: 3%;
+}
+#Raed-more {
+	font-family: Colaborate;
+    font-size: 12pt;
+    color: #fff;
+    width: 70%;
+    padding: 5px 0 5px 5px;
+    display: inline-block;
+}
+#mdrt-arrow{
+	display: inline-block;
+	float: right;
+	width: 25%;
+}
+#mdrt-arrow img {
+	height: auto;
+	width: 100%;
+}
+#mdrt-arrow img:hover {
+	cursor: pointer;
+}
+
+#info-content {
+	width: 100%;
+	height: 320px;
+	padding-top: 25px;
+}
+#str-block1 {
+	display: inline-block;
+	width: 27%;
+	border-right: 1px solid #cccccc;
+}
+#str-block2 {
+	display: inline-block;
+	width: 40%;
+	border-right: 1px solid #cccccc;
+}
+#str-block3 {
+	display: inline-block;
+	width: 32%;
+}
+#info-left {
+	height: 325px;
+	width: auto;
+	margin-top: 25px;
+	padding-top: 25px;
+	padding-right: 5%;
+	padding-left: 10%;
+	border-top: 1px solid #cccccc;
+}
+.info-cap-black {
+	font-family: Bebas;
+	font-size: 16pt;
+	color: #000;
+	display: inline-block;
+}
+.info-cap-orange {
+	font-family: Bebas;
+	font-size: 16pt;
+	color: #faa61a;
+	display: inline-block;
+}
+
+#clients {
+	height: 140px;
+	width: 100%;
+	margin-top: 40px;
+}
+#clients-cap {
+	padding-left: 3%;
+}
+#clients-cap-black {
+	font-family: Bebas;
+	font-size: 15pt;
+	color: #000;
+	display: inline-block;
+}
+#clients-cap-orange {
+	font-family: Bebas;
+	font-size: 15pt;
+	color: #faa61a;
+	display: inline-block;
+}
+#clients-logos {
+	width: 100%;
+	height: 100px;
+	padding-left: 5%;
+}
+.client-logo {
+	display: inline-block;
+	width: auto;
+}
+
+#foot-wr {
+	width: 100%;
+}
+#footer {
+	width: auto;
+    height: 60px;
+    margin-top: 65px;
+}
+
+#foot-caption {
+	display: inline-block;
+    vertical-align: top;
+}
+#foot-label{
+	display: inline-block;
+    vertical-align: top;
+    padding-top: 7px;
+    padding-left: 3%;
+}
+#leaf-footer {
+	width: 15%;
+	display: inline-block;
+}
+#Lispum-foot {
+	display: inline-block;
+	font-family: Source;
+	font-size: 22pt;
+	font-weight: 200;
+	width: auto;
+}
+#Media-foot {
+	display: inline-block;
+    font-family: SourceLt;
+    font-size: 24pt;
+    padding-left: 2%;
+}
+#foot-menu {
+	display: inline-block;
+	width: 77%;
+}
+#foot-menu-wr {
+	display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    	 width: 100%;
+    	 float: right;
+	border-bottom: 1px solid #ccc;
+}
+#foot-list {
+	float: right;
+	margin-bottom: 0;
+}
+#foot-menu-wr ul li {
+	display: inline-block;
+	text-align: right;
+	padding: 10px 5px 3px 5px;
+
+	}
+.menu-foot {
+	display: inline-block;
+	text-align: right;
+	padding: 0 5px;
+	font-size: 10pt;
+	font-weight: 600;
+
+}
+#copyright {
+	display: inline-block;
+    float: right;
+    padding-top: 8px;
+}
+#llc {
+	font-family: Cicle_Fina;
+	font-size: 10pt;
+	font-weight: 600;
+}
+
+
+@media (min-width: 950px)
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto;}
+#footer {
+	max-width: 1079px;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+@font-face {
+font-family: Source; /* Имя шрифта */
+src: url(sourcesansproblack.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+font-family: SourceLt; /* Имя шрифта */
+src: url(sourcesansprolight.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+font-family: Cicle_Fina; /* Имя шрифта */
+src: url(Cicle_Fina.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+font-family: Cicle_FinaIt; /* Имя шрифта */
+src: url(Cicle_Fina_Italic.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+font-family: Helvetical; /* Имя шрифта */
+src: url(HelveticaLTStd-UltraComp.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+font-family: Bebas; /* Имя шрифта */
+src: url(BEBAS.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+font-family: Colaborate; /* Имя шрифта */
+src: url(ColabMed.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+font-family: ColaborateTh; /* Имя шрифта */
+src: url(ColabThi.otf); /* Путь к файлу со шрифтом */
+}
